@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" >
+    <TextView
+            android:id="@+id/readerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="title" android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="395dp"
+            android:layout_height="487dp" android:id="@+id/readerText" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="280dp" android:layout_marginTop="37dp" android:layout_below="@+id/readerTitle"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="0dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    <ToggleButton
+            android:text="ToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/toggleButtonBlue" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="128dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="32dp" android:textStyle="bold"/>
+    <ToggleButton
+            android:text="ToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/toggleButtonBold" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="128dp" android:layout_alignParentEnd="true" android:layout_marginEnd="32dp"
+            android:textStyle="bold"/>
+    <TextView
+            android:text="@string/blue_font"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content" android:id="@+id/textView6"
+            android:layout_above="@+id/toggleButtonBlue"
+            android:layout_marginBottom="16dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="32dp" android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+            android:text="@string/bold_font"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content" android:id="@+id/textView7"
+            android:layout_above="@+id/toggleButtonBold"
+            android:layout_marginBottom="16dp" android:layout_alignParentEnd="true" android:layout_marginEnd="32dp"
+            android:textColor="@color/colorPrimaryDark"/>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DOCUMENT READER</string>
+    <string name="app_title">MAIN MENU</string>
+    <string name="search_doc_hint">Input document name</string>
+    <string name="search_doc_button">Search</string>
+    <string name="create_doc_button">Create New Document</string>
+    <string name="av_documents_desc">Available documents:</string>
+    <string name="edit_doc_button">Edit</string>
+    <string name="exit_button">ExitApp</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="maybe">Maybe Later</string>
+    <string name="like_app">Do you like our app?</string>
+    <string name="blue_font">Blue Font</string>
+    <string name="bold_font">Bold Font</string>
+    <string name="read">Read</string>
+    <string-array name="available_documents_array">
+        <item>HowToAndroid</item>
+        <item>CreateAndroidApp</item>
+        <item>HowToPassTheMSID</item>
+        <item>MobilePlatformsDevelopmentPt1</item>
+    </string-array>
+    <string-array name="available_documents_texts">
+        <item>Android is a mobile operating system developed by Google. It is based on a modified version of the Linux
+            kernel and other open source software, and is designed primarily for touchscreen mobile devices such as
+            smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android
+            Auto for cars, and Wear OS for wrist watches, each with a specialized user interface. Variants of Android
+            are also used on game consoles, digital cameras, PCs and other electronics.</item>
+        <item>Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007,
+            with the first commercial Android device launched in September 2008. The operating system has since
+            gone through multiple major releases, with the current version being 9 "Pie", released in August 2018.
+            The core Android source code is known as Android Open Source Project (AOSP), and is primarily licensed
+            under the Apache License.</item>
+        <item>Android is also associated with a suite of proprietary software developed by Google, called Google
+            Mobile Services[9] (GMS) that very frequently comes pre-installed in devices, which usually includes
+            he Google Chrome web browser and Google Search and always includes core apps for services such as Gmail,
+            as well as the application store and digital distribution platform Google Play, and associated development
+            platform.</item>
+        <item>Android is also associated with a suite of proprietary software developed by Google, called Google
+            Mobile Services[9] (GMS) that very frequently comes pre-installed in devices, which usually includes
+            he Google Chrome web browser and Google Search and always includes core apps for services such as Gmail,
+            as well as the application store and digital distribution platform Google Play, and associated development
+            platform.</item>
+    </string-array>
+</resources>
